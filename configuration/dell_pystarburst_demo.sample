@@ -1,0 +1,33 @@
+{
+  "BASE": {
+    "logging_level": "info"
+  },
+  "DELL_S3_CONNECTION": {
+    "protocol": "http",
+    "host": "xx.xx.xx.xx",
+    "port": "9020",
+    "s3AccessKey": "",
+    "s3SecretKey": "",
+    "connectTimeout": "15",
+    "readTimeout": "60"
+  },
+  "DDAE_SESSION": {
+    "protocol": "https",
+    "host": "xx.xx.xx.xx",
+    "port": "443",
+    "user": "dv-admin",
+    "password": "",
+    "catalog": "system",
+    "schema":"metadata",
+    "connectTimeout": "15",
+    "readTimeout": "60"
+  },
+  "DDAE_DATA_CONFIG": {
+    "ddae_catalog": "hive",
+    "ddae_schema": "pystarburst_demo_hive",
+    "ddae_table_location": "s3a://dell-pystarburst-demo/hive/",
+    "ddae_table_name_customer": "customer",
+    "ddae_table_schema_customer": "c_customer_sk bigint, c_customer_id  varchar, c_current_cdemo_sk  bigint, c_current_hdemo_sk bigint, c_current_addr_sk bigint, c_first_shipto_date_sk bigint, c_first_sales_date_sk bigint, c_salutation varchar, c_first_name varchar, c_last_name varchar, c_preferred_cust_flag varchar, c_birth_day integer, c_birth_month integer, c_birth_year integer, c_birth_country varchar, c_login varchar, c_email_address varchar, c_last_review_date_sk bigint\n",
+    "dell_lakehouse_s3_bucket": "dell-pystarburst-demo"
+  }
+}

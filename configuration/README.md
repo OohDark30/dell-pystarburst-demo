@@ -8,7 +8,6 @@ Data Lake House is not lost if inadvertently deleted
 We've provided a sample configuration file:
 
 - dell_pystarburst_demo.sample: Change file suffix from .sample to .json and configure as needed
-  This contains the tool configuration for Flask, S3, and Thumbnail processing.
   
   BASE:
   logging_level - The default is "info" but it can be set to "debug" to generate a LOT of details
